@@ -42,7 +42,7 @@ static const Rule rules[] = {
 	{ "Gimp",               NULL,     NULL,           1 << 5,    1,          0,           0,        -1 },
 	{ "firefox",   		    NULL,     NULL,           1 << 4,    0,          0,          -1,        -1 },
 	{ "Opera",   		    NULL,     NULL,           1 << 7,    0,          0,          -1,        -1 },
-	{ "XTerm",              NULL,     NULL,           1 << 2,    0,          1,           0,        -1 },
+	{ "st",              NULL,     NULL,           1 << 2,    0,          1,           0,        -1 },
     { "Code",               NULL,     NULL,           1 << 1,    0,          0,           0,        -1 },
 	{ NULL,                 NULL,     "Event Tester", 0,         0,          0,           1,        -1 }, /* xev */
 };
@@ -76,7 +76,7 @@ static const Layout layouts[] = {
 /* commands */
 static char dmenumon[2] = "0"; /* component of dmenucmd, manipulated in spawn() */
 static const char *dmenucmd[] = { "dmenu_run", "-m", dmenumon, "-fn", dmenufont};
-static const char *termcmd[]  = { "xterm", NULL };
+static const char *termcmd[]  = { "st", NULL };
 
 static Key keys[] = {
 	/* modifier                     key        function        argument */
