@@ -42,7 +42,6 @@ static const Rule rules[] = {
 	{ "Gimp",               NULL,     NULL,           1 << 5,    1,          0,           0,        -1 },
 	{ "firefox",   		    NULL,     NULL,           1 << 4,    0,          0,          -1,        -1 },
 	{ "Opera",   		    NULL,     NULL,           1 << 7,    0,          0,          -1,        -1 },
-	{ "st",              NULL,     NULL,           1 << 2,    0,          1,           0,        -1 },
     { "Code",               NULL,     NULL,           1 << 1,    0,          0,           0,        -1 },
 	{ NULL,                 NULL,     "Event Tester", 0,         0,          0,           1,        -1 }, /* xev */
 };
