@@ -55,10 +55,10 @@ static const int resizehints = 1;    /* 1 means respect size hints in tiled resi
 #include "fibonacci.c"
 static const Layout layouts[] = {
 	/* symbol     arrange function */
-	{ "@",        spiral },    /* first entry is default */
+    { "[]=",      tile },    /* first entry is default */
 	{ "><>",      NULL },    /* no layout function means floating behavior */
 	{ "[M]",      monocle },
-    { "[]=",      tile },
+    { "@",        spiral },    
     { "[\\]",     dwindle },
 };
 
